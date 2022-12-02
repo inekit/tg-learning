@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "node index",
+    "test": "node index",
+  },
   "dependencies": {
     "adm-zip": "^0.5.9",
     "axios": "^0.27.2",
