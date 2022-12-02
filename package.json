@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "node index",
-    "test": "node index",
+    "test": "node index"
   },
   "dependencies": {
     "adm-zip": "^0.5.9",
