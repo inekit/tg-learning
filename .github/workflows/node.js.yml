@@ -21,14 +21,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Lint Code
-      uses: github/super-linter@v3.17.0
-      env:
-        DEFAULT_BRANCH: main
-        GITHUB_TOKEN: ${{secrets.GIT_TOKEN}}
-        
+    - uses: actions/checkout@v3        
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
